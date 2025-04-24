@@ -2,7 +2,7 @@
   font-family: Arial, sans-serif;
 }
 body{
-  background-color: #9BABB8;
+  background-color: #F7F7F7;
 }
 
 .category-selector button {
@@ -10,6 +10,6 @@ body{
   padding: 10px;
   cursor: pointer;
 }
-button:hover{
-  background-color: #f1d69c;
+button:active{
+  background-color: #3A8DFF;
 }
