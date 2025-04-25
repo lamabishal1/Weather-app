@@ -1,0 +1,15 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+body{
+  background-color: #F7F7F7;
+}
+
+.category-selector button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+button:active{
+  background-color: #3A8DFF;
+}
