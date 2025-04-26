@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "weather-app",
-=======
-  "name": "news-app",
->>>>>>> a371d5a339c4afa4005f2bcb7546d1742a659e67
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,30 +11,19 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
-<<<<<<< HEAD
     "axios": "^1.9.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^6.30.0",
     "tailwindcss": "^4.1.4",
     "weather-app": "file:"
-=======
-    "axios": "^1.8.4",
-    "news-app": "file:",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^6.30.0",
-    "tailwindcss": "^4.1.4"
->>>>>>> a371d5a339c4afa4005f2bcb7546d1742a659e67
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
-<<<<<<< HEAD
-=======
     "autoprefixer": "^10.4.21",
->>>>>>> a371d5a339c4afa4005f2bcb7546d1742a659e67
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
