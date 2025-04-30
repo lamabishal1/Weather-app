@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios';
 import Header from './components/Header.jsx'
 import WeatherCard from './components/WeatherCard.jsx'
+import Loader from './components/Loader.jsx';
 import './App.css'
 
 function App() {
@@ -40,15 +41,17 @@ function App() {
 
   return (
     <>
-      <div className='text-center p-4'>
-          <Header onSelect={setSelectedPrefecture} />
-          {loading ? (
-            <p>Loading...</p>
-          ) : (
-             weather && <WeatherCard weather={weather} />
-             )}
-
-       </div>
+      <div className="min-h-screen bg-[#FFFDF8]  text-[#B80000]">
+      <div className="text-center py-6">
+        <Header onSelect={setSelectedPrefecture} />
+        {!selectedPrefecture && <p className="mt-4">都道府県を選択して天気を表示してください。</p>}
+        {loading ? (
+          <Loader />
+        ) : (
+          weather && <WeatherCard weather={weather} />
+        )}
+      </div>
+    </div>
        </>
   )
 
